@@ -1,0 +1,69 @@
+/* universal selector*/
+*{
+     background-color:rgb(216, 220, 190); 
+      text-align: center;
+       
+}
+/element selector/
+    h1{
+    color:black;
+    /*background-color:rgb(216, 220, 190);*/ 
+    text-align: center;
+    font-family: "courier";
+      
+}
+/*class selector*/
+.Day8{
+    color:rgb(233, 126, 210);   
+}
+/*id selector*/
+#para{
+    color:rgb(103, 108, 245);
+   /* background-color:rgb(15, 191, 249);*/ 
+    text-align: left;
+    font-family: "courier"; 
+    border-width: 1px;
+    border-color: black; 
+    border-style: dotted; 
+}
+p{
+color:black;
+    /*background-color:rgb(244, 129, 183);*/ 
+    text-align: center;
+    font-family: "courier";
+}   
+h2{
+   color:black;
+    /*background-color:rgb(228, 249, 91); */
+    text-align: center;
+    font-family: "courier";      
+}
+body{
+    border:solid black;
+    border-width: 3px;
+    border-color: black; 
+    border-style: dotted;
+}
+div {
+    color:black;
+   /* background-color:rgb(126, 245, 219);
+    text-align: center;
+    font-family: "courier";*/
+}
+/*.para{
+    color: blue;
+}*/
+p{
+    color: rgb(237, 104, 75);
+}
+/*pseudo selector (it can change the button color when we click)*/
+button:hover{
+    color:rgb(241, 74, 163);
+}
+p::selection{
+    color: brown;
+}
+/*box-model(changing the heights)
+p{
+    height: 10px;
+}*/
